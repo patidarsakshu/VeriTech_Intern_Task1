@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(202, 193, 193, 0.1);
+}
+.About_company{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d4a4d0;
+    box-shadow: 0 0 10px rgba(58, 51, 51, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.company-banner {
+    background-color: #6d126d;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 20px;
+}
+
+.team-section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.team-category {
+    margin-bottom: 40px;
+}
+
+.category-header {
+    background-color: #ad53ad;
+    color: #fff;
+    padding: 10px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.founder-name {
+    font-weight: bold;
+}
+.founder{
+    font-weight: bold;
+}
+
+
+.team-member {
+
+    background-color: #fff;
+    /* border: 1px solid hsl(0, 4%, 85%); */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.team-member img {
+    background-color: #a5aaaa;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    margin: 5px 0;
+    color: #333;
+}
